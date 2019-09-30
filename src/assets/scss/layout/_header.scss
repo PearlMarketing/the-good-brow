@@ -85,7 +85,7 @@
 			}
 
 			p {
-				text-transform: uppercase;
+				// text-transform: uppercase;
 				letter-spacing: _font(letter-spacing);
 				font-size: 0.8rem;
 				line-height: 2;
@@ -94,7 +94,9 @@
 
 		nav {
 			ul {
-				@include vendor('display', 'flex');
+        @include vendor('display', 'flex');
+        justify-content: center;
+        overflow:hidden;
 				margin-bottom: 0;
 				list-style: none;
 				padding-left: 0;
@@ -110,14 +112,16 @@
 					}
 
 					a {
-						display: block;
+            display: block;
+            background-color: rgba(0, 0, 0, 0.45);
 						min-width: 7.5rem;
 						height: 2.75rem;
 						line-height: 2.75rem;
 						padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
-						text-transform: uppercase;
+						// text-transform: uppercase;
 						letter-spacing: _font(letter-spacing);
-						font-size: 0.8rem;
+            font-size: 0.8rem;
+            white-space: nowrap;
 						border-bottom: 0;
 
 						&:hover {
@@ -219,7 +223,7 @@
 			}
 		}
 
-		@include breakpoint(xsmall) {
+		@include breakpoint(medium) {
 			padding: 1.5rem 0;
 
 			.content {
