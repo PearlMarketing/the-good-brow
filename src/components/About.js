@@ -22,9 +22,9 @@ class About extends React.Component {
         style={{ display: 'none' }}
       >
         <h2 className="major">About Me</h2>
-        <span className="image main">
+        {/* <span className="image main">
           <img src={pic01} alt="" />
-        </span>
+        </span> */}
         <p>
           Hi! My name is Emily White and I am the owner of The Good Brow, LLC
           located in Downtown Concord, NH.  Ive been a licensed esthetician
