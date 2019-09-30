@@ -1,9 +1,25 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 
-const About = props => {
+class About extends React.Component {
+  render () {
+  let close = (
+    <div
+      className="close"
+      onClick={() => {
+        this.props.onCloseArticle()
+      }}
+    ></div>
+  )
+
   return (
-    <article id={props.id} className={props.className} style={props.style}>
+    <article id="about"
+    className={`${this.props.article === 'about' ? 'active' : ''} ${
+      this.props.articleTimeout ? 'timeout' : ''
+    }`}
+    style={{ display: 'none' }}
+    >
       <h2 className="major">About Me</h2>
       <span className="image main">
         <img src={pic01} alt="" />
@@ -32,9 +48,19 @@ const About = props => {
         <br />
         XO
       </p>
-      {props.children}
+      {close}
     </article>
   )
+}
+}
+
+About.propTypes = {
+  route: PropTypes.object,
+  article: PropTypes.string,
+  articleTimeout: PropTypes.bool,
+  onCloseArticle: PropTypes.func,
+  timeout: PropTypes.bool,
+  setWrapperRef: PropTypes.func.isRequired,
 }
 
 export default About
