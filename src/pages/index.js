@@ -2,9 +2,9 @@ import React from 'react'
 import Layout from '../components/layout'
 
 import Header from '../components/Header'
-import Main from '../components/Main'
 
 import About from '../components/About'
+import Services from '../components/Services'
 
 import Footer from '../components/Footer'
 import Background from '../components/Background'
@@ -90,14 +90,6 @@ class IndexPage extends React.Component {
   }
 
   render() {
-    let close = (
-      <div
-        className="close"
-        onClick={() => {
-          this.handleCloseArticle()
-        }}
-      ></div>
-    )
     return (
       <Layout location={this.props.location}>
         <div
@@ -118,6 +110,14 @@ class IndexPage extends React.Component {
               }
             >
               <About
+                isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <Services
                 isArticleVisible={this.state.isArticleVisible}
                 timeout={this.state.timeout}
                 articleTimeout={this.state.articleTimeout}
