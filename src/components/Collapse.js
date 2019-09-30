@@ -14,10 +14,11 @@ const StyledCollapse = styled.div`
       line-height: normal;
       margin-bottom: 0;
       width: 100%;
+      white-space: normal;
       .price {
-        font-size:.8rem;
-        padding-top:5px;
-        display:block;
+        font-size: 0.8rem;
+        padding-top: 5px;
+        display: block;
       }
       .arrow {
         position: absolute;
@@ -40,7 +41,8 @@ const StyledCollapse = styled.div`
     transition: max-height 0.3s ease-out;
     --webkit-transition: max-height 0.3s ease-out;
     p {
-      padding: 0.75rem 1rem 0.75rem 1rem;
+      padding: 1rem;
+      margin: 0;
     }
   }
   &.active {
@@ -66,17 +68,24 @@ const Collapse = props => {
 
   function toggleCollapse() {
     setActiveState(setActive === '' ? 'active' : '')
-    setHeightState(
-      setActive === 'active' ? '0px' : `${content.current.scrollHeight}px`
-    )
+    if (props.children) {
+      setHeightState(
+        setActive === 'active' ? '0px' : `${content.current.scrollHeight}px`
+      )
+    }
   }
 
   return (
     <StyledCollapse className={setActive} onClick={toggleCollapse}>
       <button className="collapse_button">
         <p>
-          {props.title} <span className="price">{props.price}</span>
-          <span className="icon fa-angle-down arrow"></span>
+          {props.title}
+          {props.price ? <span className="price">{props.price}</span> : ''}
+          {props.children ? (
+            <span className="icon fa-angle-down arrow"></span>
+          ) : (
+            ''
+          )}
         </p>
       </button>
       <div
@@ -84,7 +93,7 @@ const Collapse = props => {
         style={{ maxHeight: `${setHeight}` }}
         className="collapse_content"
       >
-        {props.children}
+        <p>{props.children}</p>
       </div>
     </StyledCollapse>
   )

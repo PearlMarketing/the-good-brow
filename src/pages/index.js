@@ -5,6 +5,11 @@ import Header from '../components/Header'
 
 import About from '../components/About'
 import Services from '../components/Services'
+import Waxing from '../components/Waxing'
+import Microblading from '../components/Microblading'
+import Policies from '../components/Policies'
+import FAQ from '../components/FAQ'
+import Contact from '../components/Contact'
 
 import Footer from '../components/Footer'
 import Background from '../components/Background'
@@ -119,6 +124,43 @@ class IndexPage extends React.Component {
               />
               <Services
                 isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <Waxing
+                isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <Microblading
+              isArticleVisible={this.state.isArticleVisible}
+              timeout={this.state.timeout}
+              articleTimeout={this.state.articleTimeout}
+              article={this.state.article}
+              onCloseArticle={this.handleCloseArticle}
+              setWrapperRef={this.setWrapperRef}
+            />
+            <Policies isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <FAQ isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <Contact isArticleVisible={this.state.isArticleVisible}
                 timeout={this.state.timeout}
                 articleTimeout={this.state.articleTimeout}
                 article={this.state.article}
