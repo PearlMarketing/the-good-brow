@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "The Good Brow",
     author: "Culver Lau",
-    description: "Website by Pearl Marketing"
+    description: "Website by Pearl Marketing",
+    siteUrl: `https://www.thegoodbrownh.com`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -20,6 +21,7 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    'gatsby-plugin-styled-components'
+    'gatsby-plugin-styled-components',
+    'gatsby-plugin-sitemap'
   ],
 }
