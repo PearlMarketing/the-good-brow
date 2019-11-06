@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Button from './Button'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -10,6 +11,7 @@ const Header = (props) => (
             <div className="inner">
                 <h1>The Good Brow</h1>
                 <p>Microblading in Downtown Concord, NH.</p>
+                <Button href="https://www.vagaro.com/thegoodbrow" target="_blank">Book Now</Button>
             </div>
         </div>
         <nav>

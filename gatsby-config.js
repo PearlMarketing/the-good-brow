@@ -46,6 +46,7 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sitemap',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -69,6 +70,12 @@ module.exports = {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
               destinationDir: 'static',
+            },
+          },
+          {
+            resolve: 'gatsby-source-instagram',
+            options: {
+              username: 'thegoodbrow.nh',
             },
           },
         ],

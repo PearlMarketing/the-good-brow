@@ -1,4 +1,5 @@
 import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 import Header from '../components/Header'
@@ -10,9 +11,12 @@ import Microblading from '../components/sections/Microblading'
 import Policies from '../components/sections/Policies'
 import FAQ from '../components/sections/FAQ'
 import Contact from '../components/sections/Contact'
+import InstaFeed from '../components/instagram/Container'
 
 import Footer from '../components/Footer'
 import Background from '../components/Background'
+
+import instagramImg from '../images/Instagram-Button-715x715.png'
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -96,6 +100,30 @@ class IndexPage extends React.Component {
 
   render() {
     return (
+      <StaticQuery
+      query={graphql`
+        query MainPageQuery {
+          allInstaNode(filter: { username: { eq: "thegoodbrow.nh" } }) {
+            edges {
+              node {
+                id
+                username
+                likes
+                caption
+                comments
+                localFile {
+                  childImageSharp {
+                    fluid(quality: 70, maxWidth: 600, maxHeight: 600) {
+                      ...GatsbyImageSharpFluid_withWebp
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      `}
+      render={data => (
       <Layout location={this.props.location}>
         <div
           className={`body ${this.state.loading} ${
@@ -168,11 +196,22 @@ class IndexPage extends React.Component {
                 setWrapperRef={this.setWrapperRef}
               />
             </div>
+            <a href="https://www.instagram.com/thegoodbrow.nh/" target="_blank" rel="noopener noreferrer">
+              <img src={instagramImg} style={{ width: '300px', marginBottom: '20px' }}/>
+            </a>
+            <InstaFeed
+              title="Public scraping"
+              text="Using public scraping you are able to retrieve the last 12 posts of
+              an Instagram account without using an access token."
+              nodes={data.allInstaNode}
+            />
             <Footer timeout={this.state.timeout} />
           </div>
           <Background />
         </div>
       </Layout>
+      )}
+    />
     )
   }
 }

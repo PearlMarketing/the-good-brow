@@ -46,4 +46,22 @@
 	@import 'layout/wrapper';
 	@import 'layout/header';
 	@import 'layout/main';
-	@import 'layout/footer';
+  @import 'layout/footer';
+  
+.gatsby-resp-image-wrapper {
+  text-align: center;
+  .gatsby-resp-image-background-image {
+    display: none !important;
+  }
+  .gatsby-resp-image-image {
+    position: relative;
+    max-height: 400px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+}
+
+.gatsby-image-wrapper {
+  z-index:1;
+}

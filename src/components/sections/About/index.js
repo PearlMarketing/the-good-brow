@@ -2,8 +2,6 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
-// import pic01 from '../images/pic01.jpg'
-
 class About extends React.Component {
   render() {
     let close = (
