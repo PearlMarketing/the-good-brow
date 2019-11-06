@@ -22,6 +22,59 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/components/sections/Services/index.md"
+        label: "Services"
+        name: "services"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Service"
+            name: "service"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Price", name: "price", widget: "string"}
+              - {label: "Description", name: "description", widget: "markdown"}
+      - file: "src/components/sections/Waxing/index.md"
+        label: "Waxing"
+        name: "waxing"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "waxing-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/components/sections/Microblading/index.md"
+        label: "Microblading"
+        name: "microblading"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "microblading-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/components/sections/Policies/index.md"
+        label: "Policies"
+        name: "policies"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "policies-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/components/sections/FAQ/index.md"
+        label: "FAQ"
+        name: "faq"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "faq-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Questions"
+            name: "questions"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "question", widget: "string"}
+              - {label: "Answer", name: "answer", widget: "markdown"}
+      - file: "src/components/sections/Contact/index.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       # - file: "src/pages/index.md"
       #   label: "Landing Page"
       #   name: "index"

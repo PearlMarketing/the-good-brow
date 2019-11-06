@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 
 class Policies extends React.Component {
   render() {
@@ -13,6 +14,20 @@ class Policies extends React.Component {
     )
 
     return (
+      <StaticQuery
+        query={graphql`
+          query {
+            markdownRemark(
+              frontmatter: { templateKey: { eq: "policies-page" } }
+            ) {
+              html
+              frontmatter {
+                title
+              }
+            }
+          }
+        `}
+        render={data => (
       <article
         id="policies"
         className={`${this.props.article === 'policies' ? 'active' : ''} ${
@@ -20,7 +35,7 @@ class Policies extends React.Component {
         }`}
         style={{ display: 'none' }}
       >
-        <h2 className="major">Policies</h2>
+        <h2 className="major">{data.markdownRemark.frontmatter.title}</h2>
         {/* <span className="image main">
             <img src={pic03} alt="" />
           </span> */}
@@ -102,6 +117,8 @@ class Policies extends React.Component {
         </p>
         {close}
       </article>
+      )}
+      />
     )
   }
 }

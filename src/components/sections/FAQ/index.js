@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 
 import Collapse from '../../Collapse'
 
@@ -15,6 +16,20 @@ class FAQ extends React.Component {
     )
 
     return (
+      <StaticQuery
+        query={graphql`
+          query {
+            markdownRemark(
+              frontmatter: { templateKey: { eq: "faq-page" } }
+            ) {
+              html
+              frontmatter {
+                title
+              }
+            }
+          }
+        `}
+        render={data => (
       <article
         id="faq"
         className={`${this.props.article === 'faq' ? 'active' : ''} ${
@@ -22,7 +37,7 @@ class FAQ extends React.Component {
         }`}
         style={{ display: 'none' }}
       >
-        <h2 className="major">FAQ</h2>
+        <h2 className="major">{data.markdownRemark.frontmatter.title}</h2>
         {/* <span className="image main">
           <img src={pic02} alt="" />
         </span> */}
@@ -49,6 +64,8 @@ class FAQ extends React.Component {
           </Collapse>
         {close}
       </article>
+      )}
+      />
     )
   }
 }
