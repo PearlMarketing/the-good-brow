@@ -38,9 +38,12 @@ const StyledCollapse = styled.div`
     overflow: hidden;
     transition: max-height 0.3s ease-out;
     --webkit-transition: max-height 0.3s ease-out;
-    p {
+    > div {
       padding: 1rem;
+    }
+    p {
       margin: 0;
+      padding: 10px 0;
     }
   }
   &.active {
@@ -87,13 +90,15 @@ const Collapse = props => {
           ''
         )}
       </button>
-      <div
-        ref={content}
-        style={{ maxHeight: `${setHeight}` }}
-        className="collapse_content"
-      >
-        <p>{props.children}</p>
-      </div>
+      {props.children &&
+        <div
+          ref={content}
+          style={{ maxHeight: `${setHeight}` }}
+          className="collapse_content"
+        >
+          {props.children}
+        </div>
+      }
     </StyledCollapse>
   )
 }
