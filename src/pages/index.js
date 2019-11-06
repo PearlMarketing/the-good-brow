@@ -16,8 +16,6 @@ import InstaFeed from '../components/instagram/Container'
 import Footer from '../components/Footer'
 import Background from '../components/Background'
 
-import instagramImg from '../images/Instagram-Button-715x715.png'
-
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
@@ -101,117 +99,120 @@ class IndexPage extends React.Component {
   render() {
     return (
       <StaticQuery
-      query={graphql`
-        query MainPageQuery {
-          allInstaNode(filter: { username: { eq: "thegoodbrow.nh" } }) {
-            edges {
-              node {
-                id
-                username
-                likes
-                caption
-                comments
-                localFile {
-                  childImageSharp {
-                    fluid(quality: 70, maxWidth: 600, maxHeight: 600) {
-                      ...GatsbyImageSharpFluid_withWebp
+        query={graphql`
+          query MainPageQuery {
+            allInstaNode(filter: { username: { eq: "thegoodbrow.nh" } }) {
+              edges {
+                node {
+                  id
+                  username
+                  likes
+                  caption
+                  comments
+                  localFile {
+                    childImageSharp {
+                      fluid(quality: 70, maxWidth: 600, maxHeight: 600) {
+                        ...GatsbyImageSharpFluid_withWebp
+                      }
                     }
                   }
                 }
               }
             }
           }
-        }
-      `}
-      render={data => (
-      <Layout location={this.props.location}>
-        <div
-          className={`body ${this.state.loading} ${
-            this.state.isArticleVisible ? 'is-article-visible' : ''
-          }`}
-        >
-          <div id="wrapper">
-            <Header
-              onOpenArticle={this.handleOpenArticle}
-              timeout={this.state.timeout}
-            />
+        `}
+        render={data => (
+          <Layout location={this.props.location}>
             <div
-              ref={this.setWrapperRef}
-              id="main"
-              style={
-                this.state.timeout ? { display: 'flex' } : { display: 'none' }
-              }
+              className={`body ${this.state.loading} ${
+                this.state.isArticleVisible ? 'is-article-visible' : ''
+              }`}
             >
-              <About
-                isArticleVisible={this.state.isArticleVisible}
-                timeout={this.state.timeout}
-                articleTimeout={this.state.articleTimeout}
-                article={this.state.article}
-                onCloseArticle={this.handleCloseArticle}
-                setWrapperRef={this.setWrapperRef}
-              />
-              <Services
-                isArticleVisible={this.state.isArticleVisible}
-                timeout={this.state.timeout}
-                articleTimeout={this.state.articleTimeout}
-                article={this.state.article}
-                onCloseArticle={this.handleCloseArticle}
-                setWrapperRef={this.setWrapperRef}
-              />
-              <Waxing
-                isArticleVisible={this.state.isArticleVisible}
-                timeout={this.state.timeout}
-                articleTimeout={this.state.articleTimeout}
-                article={this.state.article}
-                onCloseArticle={this.handleCloseArticle}
-                setWrapperRef={this.setWrapperRef}
-              />
-              <Microblading
-              isArticleVisible={this.state.isArticleVisible}
-              timeout={this.state.timeout}
-              articleTimeout={this.state.articleTimeout}
-              article={this.state.article}
-              onCloseArticle={this.handleCloseArticle}
-              setWrapperRef={this.setWrapperRef}
-            />
-            <Policies isArticleVisible={this.state.isArticleVisible}
-                timeout={this.state.timeout}
-                articleTimeout={this.state.articleTimeout}
-                article={this.state.article}
-                onCloseArticle={this.handleCloseArticle}
-                setWrapperRef={this.setWrapperRef}
-              />
-              <FAQ isArticleVisible={this.state.isArticleVisible}
-                timeout={this.state.timeout}
-                articleTimeout={this.state.articleTimeout}
-                article={this.state.article}
-                onCloseArticle={this.handleCloseArticle}
-                setWrapperRef={this.setWrapperRef}
-              />
-              <Contact isArticleVisible={this.state.isArticleVisible}
-                timeout={this.state.timeout}
-                articleTimeout={this.state.articleTimeout}
-                article={this.state.article}
-                onCloseArticle={this.handleCloseArticle}
-                setWrapperRef={this.setWrapperRef}
-              />
-            </div>
-            <a href="https://www.instagram.com/thegoodbrow.nh/" target="_blank" rel="noopener noreferrer">
-              <img src={instagramImg} style={{ width: '300px', marginBottom: '20px' }}/>
-            </a>
-            <InstaFeed
-              title="Public scraping"
-              text="Using public scraping you are able to retrieve the last 12 posts of
+              <div id="wrapper">
+                <Header
+                  onOpenArticle={this.handleOpenArticle}
+                  timeout={this.state.timeout}
+                />
+                <div
+                  ref={this.setWrapperRef}
+                  id="main"
+                  style={
+                    this.state.timeout
+                      ? { display: 'flex' }
+                      : { display: 'none' }
+                  }
+                >
+                  <About
+                    isArticleVisible={this.state.isArticleVisible}
+                    timeout={this.state.timeout}
+                    articleTimeout={this.state.articleTimeout}
+                    article={this.state.article}
+                    onCloseArticle={this.handleCloseArticle}
+                    setWrapperRef={this.setWrapperRef}
+                  />
+                  <Services
+                    isArticleVisible={this.state.isArticleVisible}
+                    timeout={this.state.timeout}
+                    articleTimeout={this.state.articleTimeout}
+                    article={this.state.article}
+                    onCloseArticle={this.handleCloseArticle}
+                    setWrapperRef={this.setWrapperRef}
+                  />
+                  <Waxing
+                    isArticleVisible={this.state.isArticleVisible}
+                    timeout={this.state.timeout}
+                    articleTimeout={this.state.articleTimeout}
+                    article={this.state.article}
+                    onCloseArticle={this.handleCloseArticle}
+                    setWrapperRef={this.setWrapperRef}
+                  />
+                  <Microblading
+                    isArticleVisible={this.state.isArticleVisible}
+                    timeout={this.state.timeout}
+                    articleTimeout={this.state.articleTimeout}
+                    article={this.state.article}
+                    onCloseArticle={this.handleCloseArticle}
+                    setWrapperRef={this.setWrapperRef}
+                  />
+                  <Policies
+                    isArticleVisible={this.state.isArticleVisible}
+                    timeout={this.state.timeout}
+                    articleTimeout={this.state.articleTimeout}
+                    article={this.state.article}
+                    onCloseArticle={this.handleCloseArticle}
+                    setWrapperRef={this.setWrapperRef}
+                  />
+                  <FAQ
+                    isArticleVisible={this.state.isArticleVisible}
+                    timeout={this.state.timeout}
+                    articleTimeout={this.state.articleTimeout}
+                    article={this.state.article}
+                    onCloseArticle={this.handleCloseArticle}
+                    setWrapperRef={this.setWrapperRef}
+                  />
+                  <Contact
+                    isArticleVisible={this.state.isArticleVisible}
+                    timeout={this.state.timeout}
+                    articleTimeout={this.state.articleTimeout}
+                    article={this.state.article}
+                    onCloseArticle={this.handleCloseArticle}
+                    setWrapperRef={this.setWrapperRef}
+                  />
+                </div>
+                <InstaFeed
+                  timeout={this.state.timeout}
+                  title="Public scraping"
+                  text="Using public scraping you are able to retrieve the last 12 posts of
               an Instagram account without using an access token."
-              nodes={data.allInstaNode}
-            />
-            <Footer timeout={this.state.timeout} />
-          </div>
-          <Background />
-        </div>
-      </Layout>
-      )}
-    />
+                  nodes={data.allInstaNode}
+                />
+                <Footer timeout={this.state.timeout} />
+              </div>
+              <Background />
+            </div>
+          </Layout>
+        )}
+      />
     )
   }
 }
