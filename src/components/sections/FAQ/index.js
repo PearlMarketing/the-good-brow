@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-import Collapse from './Collapse'
+import Collapse from '../../Collapse'
 
 class FAQ extends React.Component {
   render() {
