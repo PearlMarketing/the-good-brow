@@ -1,17 +1,34 @@
 import React from 'react'
 import styled from 'styled-components'
-
-import backgroundImage from '../images/alexandru-zdrobau-4bmtMXGuVqo-unsplash.jpg'
+import { StaticQuery, graphql } from 'gatsby'
 
 const StyledBackground = styled.div`
   &:after {
-    background-image:	url(${backgroundImage});
+    background-image: url(${props => props.background});
   }
 `
 
-const Background = () => {
+const Background = ({ data }) => {
   return (
-    <StyledBackground id="bg"></StyledBackground>
+    <StaticQuery
+      query={graphql`
+        query {
+          file(relativePath: { eq: "background-image.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 2048) {
+                src
+              }
+            }
+          }
+        }
+      `}
+      render={data => (
+        <StyledBackground
+          id="bg"
+          background={data.file.childImageSharp.fluid.src}
+        ></StyledBackground>
+      )}
+    />
   )
 }
 
