@@ -8,6 +8,8 @@ title: Contact
 
 Next door to Studio 603
 
+Entrance behind building. 
+
 Phone: 603-260-7406- texting preferred.
 
 Email: thegoodbrowconcord@gmail.com
