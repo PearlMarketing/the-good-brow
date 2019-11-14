@@ -2,7 +2,7 @@
 templateKey: microblading-page
 title: What is Microblading?
 ---
-If you are interested in effortless brows and boosting your confidence, this is exactly what you've been searching for! 
+If you are interested in effortless brows and boosting your confidence, this is exactly what you've been searching for!  
 
 
 
