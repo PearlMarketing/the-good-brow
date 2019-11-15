@@ -4,6 +4,12 @@ title: Contact
 ---
 ![The Good Brow](/img/20191022_222733.jpg "The Good Brow")
 
+
+
+Online booking available at :     www.vagaro.com/thegoodbrow
+
+
+
 48 South Main Street, Second Floor, Concord, NH 03301
 
 Next door to Studio 603
