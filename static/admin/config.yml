@@ -33,8 +33,8 @@ collections:
             widget: "list"
             fields:
               - {label: "Title", name: "title", widget: "string"}
-              - {label: "Price", name: "price", widget: "string"}
-              - {label: "Description", name: "description", widget: "markdown"}
+              - {label: "Price", name: "price", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "markdown", required: false}
       - file: "src/components/sections/Waxing/index.md"
         label: "Waxing"
         name: "waxing"
