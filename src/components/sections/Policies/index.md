@@ -1,13 +1,13 @@
 ---
 templateKey: policies-page
-title: Policies
+title: 'Policies: Microbalding & Body Waxing'
 ---
 ### POLICIES FOR MICROBLADING
 
 Please arrive 15 minutes before your scheduled appointment to fill out
 paperwork.
 
-There are many factors that affect the healing process that we have no
+There are many factors that affect the healing process that I have no
 control over  (how you take care of your brow tattoo, how your skin
 heals and retains pigment, skin type etc.). There is absolutely no
 guarantee with healed results.
@@ -42,7 +42,7 @@ not be able to donate blood for one year.
 
 I do not do touch-ups on other artists work.
 
----
+- - -
 
 ### POLICIES FOR WAXING
 
