@@ -19,5 +19,8 @@ service:
     title: Touch-up (6-8 weeks after initial appontment)
   - price: $150 (1 hour +)
     title: Annual Touch-Up (Existing clients only)
+  - description: \
+    price: '50.00'
+    title: 'Minor touch up '
 ---
 
