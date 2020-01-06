@@ -1,6 +1,6 @@
 ---
 templateKey: waxing-page
-title: Waxing (Appointment Only)
+title: Waxing Services
 ---
 Waxing is the most common form of hair removal for fast, flawless
 resuts.\
@@ -29,7 +29,7 @@ Thong and Buttocks $35
 
 Eyebrow Shaping $20\
 Upper Lip $12\
-Eyebrow  Upper Lip $25\
+Eyebrow and Upper Lip $25\
 Chin $12\
 Side of Face $12\
 Full Face $40
