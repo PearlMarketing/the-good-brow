@@ -19,7 +19,10 @@ service:
     title: Touch-up (6-8 weeks after initial appontment)
   - price: $150 (1 hour +)
     title: Annual Touch-Up (Existing clients only)
-  - description: \
+  - description: >-
+      This is for the client who has done her 6 week touch up already- but
+      theres a few spots that didnt take as well as hoped, or would like to add
+      a few strokes that you were unsure about before!
     price: '50.00'
     title: 'Minor touch up '
 ---
