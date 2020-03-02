@@ -17,7 +17,7 @@ service:
     title: Blade &amp; Shade Brows
   - price: $75 (1 hour)
     title: Touch-up (6-8 weeks after initial appontment)
-  - price: $150 (1 hour +)
+  - price: $175 (1 hour +)
     title: Annual Touch-Up (Existing clients only)
   - description: >-
       This is for the client who has done her 6 week touch up already- but
