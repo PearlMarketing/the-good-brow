@@ -2,7 +2,7 @@
 templateKey: services-page
 title: Microblading Services
 service:
-  - description: "Consult cost goes towards your microblading appointment if you\ndecide to book! Email consults are also available upon request.\n\nConsult includes going over any questions you may have, a pre-draw\nof desired brow look, choosing a custom color, and what to expect\nafter your initial appontment.\n\nNot all clients are good candidates for Microblading.\_\n\nIf you have any medical issues that you feel might be a\ncontraindication, then I require you get clearance from your\ndoctor."
+  - description: "Text and e-mail consults available upon request.\n\n\nConsult includes going over any questions you may have, a pre-draw\nof desired brow look, choosing a custom color, and what to expect\nafter your initial appontment.\n\nNot all clients are good candidates for Microblading.\_\n\nIf you have any medical issues that you feel might be a\ncontraindication, then I require you get clearance from your\ndoctor."
     price: Free (30 minutes)
     title: Consultation
   - description: "Hairstrokes throughout the entire brow.\_\n\nIf you are looking for a natural enhancement, this is the option\nbest suited for you!\n\n6-8 week touch ups are recommended for best long term results"
