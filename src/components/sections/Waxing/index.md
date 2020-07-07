@@ -17,7 +17,7 @@ Clients must be at least 18 years of age with a Valid ID
 Brazilian $50\
 Bikini $25\
 French-Bikini $30\
-Full Legs and ian $95\
+Full Legs and Brazilian $95\
 Full Legs and Bikini $85\
 1/2 legs $65\
 Full Arms $40\
