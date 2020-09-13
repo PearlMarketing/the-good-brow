@@ -3,7 +3,7 @@ templateKey: waxing-page
 title: Waxing Services
 ---
 Waxing is the most common form of hair removal for fast, flawless
-resuts.\
+results.\
 Hair must be at least 1/4 of an inch long in order to have the
 best waxing experience.\
 Be sure to gently exfoliate 2-3 days before your waxing
