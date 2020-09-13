@@ -2,7 +2,7 @@
 templateKey: about-page
 title: About Me
 ---
-![Emily White](/img/20200707_165341.jpg "Emily White")
+![](/img/20200707_165341.jpg)
 
 Hi! My name is Emily White and I am the owner of The Good Brow, LLC located in Downtown Concord, NH.  I'm also a mama to the most amazing little man! I know the struggle and hustle of every day life- and somehow, BROWS help! 
 
