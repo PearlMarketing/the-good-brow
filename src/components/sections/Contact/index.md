@@ -8,9 +8,8 @@ Online booking available at :     www.vagaro.com/thegoodbrow
 
 48 South Main Street, Second Floor, Concord, NH 03301
 
-Next door to Studio 603
-
-Entrance behind building. 
+Entrance behind building.\
+STREET PARKING ONLY.
 
 Phone: 603-260-7406- texting preferred.
 
@@ -21,7 +20,7 @@ Instagram:
 HOURS\
 Sunday: Closed\
 Monday: 10am - 5pm\
-Tuesday: 9:30am - 130pm\
+Tuesday: 10am - 5pm\
 Wednesday: 10am - 5pm\
 Thursday: 9:30am - 130pm\
 Friday: 9:30am - 130pm\
