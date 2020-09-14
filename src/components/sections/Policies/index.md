@@ -60,5 +60,3 @@ you are subject to a 50% fee.
 
 If you do not show up for your appointment (no show), you will be
 charged 100% of the full service price of all appointments booked.
-
-I respect your time, please respect mine. Thank you!
