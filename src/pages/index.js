@@ -101,7 +101,7 @@ class IndexPage extends React.Component {
       <StaticQuery
         query={graphql`
           query MainPageQuery {
-            allInstaNode(filter: { username: { eq: "thegoodbrow.nh" } }) {
+            allInstaNode(limit: 50, sort: { fields: timestamp, order: DESC }) {
               edges {
                 node {
                   id
