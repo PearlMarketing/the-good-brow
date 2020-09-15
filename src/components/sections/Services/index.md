@@ -8,6 +8,11 @@ service:
   - description: "Hairstrokes throughout the entire brow.\_\n\nIf you are looking for a natural enhancement, this is the option\nbest suited for you!\n\n6-8 week touch ups are recommended for best long term results"
     price: $425 (2 hours)
     title: Microblading
+  - description: >-
+      __[_Click Here to Pay Microblading
+      Deposit_](https://checkout.square.site/pay/7713ad15-45a2-41f6-bb8d-afda06c8669a)__
+    price: $100
+    title: Microblading Deposit
   - description: |-
       Blending hairstrokes and shading together for added depth and
       definition to your brows.
