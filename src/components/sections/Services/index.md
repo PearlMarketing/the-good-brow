@@ -19,7 +19,7 @@ service:
 
       6-8 week touch ups are recommended for best long term results.
     price: $475 (2 hours)
-    title: Blade &amp; Shade Brows
+    title: Blade & Shade Brows
   - price: $85 (1 hour 15 min)
     title: Touch-up (6-8 weeks after initial appontment)
   - price: $195 (1 hour +)
