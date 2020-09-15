@@ -46,6 +46,7 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
@@ -64,6 +65,9 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 2048,
+              maxHeight: 400,
+              linkImagesToOriginal: false,
+              fit: 'inside',
             },
           },
           {
