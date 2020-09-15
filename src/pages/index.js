@@ -101,7 +101,7 @@ class IndexPage extends React.Component {
       <StaticQuery
         query={graphql`
           query MainPageQuery {
-            allInstaNode(filter: { username: { eq: "thegoodbrow.nh" } }) {
+            allInstaNode(limit: 50, sort: { fields: timestamp, order: DESC }) {
               edges {
                 node {
                   id
@@ -201,9 +201,8 @@ class IndexPage extends React.Component {
                 </div>
                 <InstaFeed
                   timeout={this.state.timeout}
-                  title="Public scraping"
-                  text="Using public scraping you are able to retrieve the last 12 posts of
-              an Instagram account without using an access token."
+                  title="Instagram Feed"
+                  text="This is the Instagram Feed for The Good Brow NH"
                   nodes={data.allInstaNode}
                 />
                 <Footer timeout={this.state.timeout} />
