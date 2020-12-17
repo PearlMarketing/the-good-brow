@@ -10,7 +10,7 @@ service:
       Deposit_](https://checkout.square.site/pay/7713ad15-45a2-41f6-bb8d-afda06c8669a)__
     price: $100
     title: Microblading Deposit
-  - description: "Hairstrokes throughout the entire brow.\_\n\nIf you are looking for a natural enhancement, this is the option\nbest suited for you!\n\n6-8 week touch ups are recommended for best long term results"
+  - description: "Hairstrokes throughout the entire brow.\_\n\nIf you are looking for a natural enhancement, this is the option\nbest suited for you!\n\n6-8 week touch ups are recommended for best long term results."
     price: $450 (2 hours)
     title: Microblading
   - description: |-
@@ -30,7 +30,14 @@ service:
       a few strokes that you were unsure about before!
     price: '75.00'
     title: 'Minor touch up '
-  - description: ''
+  - description: >-
+      Powder brows is a form of permanent makeup that help clients achieve more
+      of a powder look instead of individual hair strokes. Powdered brows heal
+      to look like a soft makeup and work great for clients with mature or oily
+      skin.
+
+
+      6-8 week touch ups are recommended for best long term results.
     price: $500.00 (2+ hours)
     title: Powder Brows
 ---
