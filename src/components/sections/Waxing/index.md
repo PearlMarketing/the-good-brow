@@ -14,9 +14,9 @@ Clients must be at least 18 years of age with a Valid ID
 
 ### Women's Full Body Waxing
 
-Brazilian $50\
+Brazilian $55\
 Bikini $25\
-French-Bikini $30\
+French-Bikini $35\
 Full Legs and Brazilian $95\
 Full Legs and Bikini $85\
 1/2 legs $65\
