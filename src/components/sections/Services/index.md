@@ -18,7 +18,7 @@ service:
       definition to your brows.
 
       6-8 week touch ups are recommended for best long term results.
-    price: $475 (2 hours)
+    price: $475 (2+ hours)
     title: Blade & Shade Brows
   - price: $85 (1 hour 15 min)
     title: Touch-up (6-8 weeks after initial appontment)
@@ -30,5 +30,8 @@ service:
       a few strokes that you were unsure about before!
     price: '75.00'
     title: 'Minor touch up '
+  - description: ''
+    price: $500.00 (2+ hours)
+    title: Powder Brows
 ---
 
