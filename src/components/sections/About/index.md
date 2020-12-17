@@ -4,7 +4,7 @@ title: About Me
 ---
 ![](/img/20200707_165341.jpg)
 
-Hi! My name is Emily White and I am the owner of The Good Brow, LLC located in Downtown Concord, NH.  I'm also a mama to the most amazing little man! I know the struggle and hustle of every day life- and somehow, BROWS help! 
+Hi! My name is Emily and I am the owner of The Good Brow, LLC located in Downtown Concord, NH.  I'm also a mama to the most amazing little man! I know the struggle and hustle of every day life- and somehow, BROWS help! 
 
 I have been a licensed esthetician since 2009 and a NH Licensed Tattoo artist since 2016. Since working in this field, I have always felt like there was something missing; like I wanted more. After thinking it through for a period of time, I decided to go out on my own and start a business based on my drive to make women feel their absolute best. Now realizing, this is what I had been searching for! 
 
