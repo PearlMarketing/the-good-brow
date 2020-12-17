@@ -20,16 +20,6 @@ service:
       6-8 week touch ups are recommended for best long term results.
     price: $475 (2+ hours)
     title: Blade & Shade Brows
-  - price: $85 (1 hour 15 min)
-    title: Touch-up (6-8 weeks after initial appontment)
-  - price: $195 (1 hour +)
-    title: Annual Touch-Up (Existing clients only)
-  - description: >-
-      This is for the client who has done her 6 week touch up already- but
-      theres a few spots that didnt take as well as hoped, or would like to add
-      a few strokes that you were unsure about before!
-    price: '75.00'
-    title: 'Minor touch up '
   - description: >-
       Powder brows is a form of permanent makeup that help clients achieve more
       of a powder look instead of individual hair strokes. Powdered brows heal
@@ -40,6 +30,8 @@ service:
       6-8 week touch ups are recommended for best long term results.
     price: $500.00 (2+ hours)
     title: Powder Brows
+  - price: $85 (1 hour 15 min)
+    title: Touch-up (6-8 weeks after initial appontment)
   - description: >-
       Not quite ready for your annual touch up?
 
@@ -53,5 +45,13 @@ service:
       initial appointment.
     price: $125 (1+ hours)
     title: Color Boost
+  - price: $195 (1 hour +)
+    title: Annual Touch-Up (Existing clients only)
+  - description: >-
+      This is for the client who has done her 6 week touch up already- but
+      theres a few spots that didnt take as well as hoped, or would like to add
+      a few strokes that you were unsure about before!
+    price: '75.00'
+    title: 'Minor touch up '
 ---
 
