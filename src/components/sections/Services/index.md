@@ -5,14 +5,14 @@ service:
   - description: "Text and e-mail consults available upon request.\n\n\nConsult includes going over any questions you may have, a pre-draw\nof desired brow look, choosing a custom color, and what to expect\nafter your initial appontment.\n\nNot all clients are good candidates for Microblading.\_\n\nIf you have any medical issues that you feel might be a\ncontraindication, then I require you get clearance from your\ndoctor."
     price: Free (30 minutes)
     title: Consultation
-  - description: "Hairstrokes throughout the entire brow.\_\n\nIf you are looking for a natural enhancement, this is the option\nbest suited for you!\n\n6-8 week touch ups are recommended for best long term results"
-    price: $450 (2 hours)
-    title: Microblading
   - description: >-
       __[_Click Here to Pay Microblading
       Deposit_](https://checkout.square.site/pay/7713ad15-45a2-41f6-bb8d-afda06c8669a)__
     price: $100
     title: Microblading Deposit
+  - description: "Hairstrokes throughout the entire brow.\_\n\nIf you are looking for a natural enhancement, this is the option\nbest suited for you!\n\n6-8 week touch ups are recommended for best long term results"
+    price: $450 (2 hours)
+    title: Microblading
   - description: |-
       Blending hairstrokes and shading together for added depth and
       definition to your brows.
