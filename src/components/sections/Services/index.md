@@ -6,7 +6,7 @@ service:
     price: Free (30 minutes)
     title: Consultation
   - description: "Hairstrokes throughout the entire brow.\_\n\nIf you are looking for a natural enhancement, this is the option\nbest suited for you!\n\n6-8 week touch ups are recommended for best long term results"
-    price: $425 (2 hours)
+    price: $450 (2 hours)
     title: Microblading
   - description: >-
       __[_Click Here to Pay Microblading
