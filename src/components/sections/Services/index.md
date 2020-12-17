@@ -40,5 +40,17 @@ service:
       6-8 week touch ups are recommended for best long term results.
     price: $500.00 (2+ hours)
     title: Powder Brows
+  - description: >-
+      Not quite ready for your annual touch up?
+
+
+      Enjoy the vibrancy you had after your first appointment back and get a
+      color boost!
+
+
+      Color Boosts are only available to clients who have completed a previous
+      microblading session with me in the past.
+    price: $125 (1+ hours)
+    title: Color Boost
 ---
 
