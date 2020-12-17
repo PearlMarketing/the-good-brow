@@ -49,7 +49,7 @@ service:
 
 
       Color Boosts are only available to clients who have completed a previous
-      microblading session with me in the past,; no sooner than 6 months after
+      microblading session with me in the past; no sooner than 6 months after
       initial appointment.
     price: $125 (1+ hours)
     title: Color Boost
