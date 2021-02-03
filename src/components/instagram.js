@@ -1,13 +1,19 @@
-import React from "react"
+import React from 'react'
 
 // Styles
-import "./instagram.css"
+import './instagram.css'
 
 export default class Instagram extends React.Component {
-  state = { photos: [], loading: true }
+  constructor(props) {
+    super(props)
+    this.state = {
+      photos: [],
+      loading: true,
+    }
+  }
 
   // Your specifications
-  INSTAGRAM_ID = "5669839098"
+  INSTAGRAM_ID = '5669839098'
   THUMBNAIL_WIDTH = 640
   PHOTO_COUNT = 30
 
@@ -51,7 +57,7 @@ export default class Instagram extends React.Component {
     return (
       <div className="post-wrapper">
         {this.state.loading === true ? (
-          <div style={{ textAlign: "center" }}>
+          <div style={{ textAlign: 'center' }}>
             <h1>Loading ...</h1>
           </div>
         ) : (
@@ -81,13 +87,13 @@ export default class Instagram extends React.Component {
                           viewBox="0 0 24 24"
                           fill="white"
                           style={{
-                            fontSize: "14px",
-                            lineHeight: "1.45",
+                            fontSize: '14px',
+                            lineHeight: '1.45',
                           }}
                         >
                           <path d="M12 4.435C10.011-.964 0-.162 0 8.003 0 12.071 3.06 17.484 12 23c8.94-5.516 12-10.929 12-14.997C24-.115 14-.996 12 4.435z"></path>
                         </svg>
-                      </span>{" "}
+                      </span>{' '}
                       {likes !== null ? likes.toLocaleString() : 0}
                     </li>
                     <li className="post-item-comments">
@@ -98,13 +104,13 @@ export default class Instagram extends React.Component {
                           viewBox="0 0 24 24"
                           fill="white"
                           style={{
-                            fontSize: "14px",
-                            lineHeight: "1.45",
+                            fontSize: '14px',
+                            lineHeight: '1.45',
                           }}
                         >
                           <path d="M24 9.874C24 4.42 18.627 0 12 0S0 4.42 0 9.874c0 4.512 3.678 8.317 8.701 9.496L12 24l3.299-4.63C20.322 18.19 24 14.385 24 9.874z"></path>
                         </svg>
-                      </span>{" "}
+                      </span>{' '}
                       {comments !== null ? comments.toLocaleString() : 0}
                     </li>
                   </ul>
