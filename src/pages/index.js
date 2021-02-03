@@ -12,6 +12,7 @@ import Policies from '../components/sections/Policies'
 import FAQ from '../components/sections/FAQ'
 import Contact from '../components/sections/Contact'
 import InstaFeed from '../components/instagram/Container'
+import Instagram from "../components/instagram"
 
 import Footer from '../components/Footer'
 import Background from '../components/Background'
@@ -205,6 +206,7 @@ class IndexPage extends React.Component {
                   text="This is the Instagram Feed for The Good Brow NH"
                   nodes={data.allInstaNode}
                 />
+                <Instagram />
                 <Footer timeout={this.state.timeout} />
               </div>
               <Background />
