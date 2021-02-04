@@ -75,3 +75,16 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+  - name: "settings"
+    label: "Settings"
+    files:
+      - file: "src/components/index.md"
+        label: "Settings"
+        name: "settings"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings"}
+          - {label: "Site Name", name: "title", widget: "string"}
+          - {label: "Background Image", name: "background", widget: "image"}
+          - {label: "Subtext", name: "body", widget: "markdown"}
+          - {label: "Button Text", name: "button", widget: "string"}
+          - {label: "Button URL", name: "buttonURL", widget: "string"}

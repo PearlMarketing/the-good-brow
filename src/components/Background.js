@@ -8,7 +8,7 @@ const StyledBackground = styled.div`
   }
 `
 
-const Background = ({ data }) => {
+const Background = () => {
   return (
     <StaticQuery
       query={graphql`
@@ -20,12 +20,17 @@ const Background = ({ data }) => {
               }
             }
           }
+          markdownRemark(frontmatter: { templateKey: { eq: "settings" } }) {
+            frontmatter {
+              background
+            }
+          }
         }
       `}
       render={data => (
         <StyledBackground
           id="bg"
-          background={data.file.childImageSharp.fluid.src}
+          background={data.markdownRemark.frontmatter.background || data.file.childImageSharp.fluid.src}
         ></StyledBackground>
       )}
     />
