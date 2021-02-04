@@ -78,7 +78,7 @@ collections:
   - name: "settings"
     label: "Settings"
     files:
-      - file: "src/components/index.md"
+      - file: "src/components/settings.md"
         label: "Settings"
         name: "settings"
         fields:
