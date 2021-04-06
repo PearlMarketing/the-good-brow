@@ -12,8 +12,6 @@ Please stop use of any Accutane or Retin-A at least 72 hours
 before a wax.\
 Clients must be at least 18 years of age with a Valid ID
 
-
-
 ### Women's Full Body Waxing
 
 Brazilian $55\
@@ -42,8 +40,13 @@ Eyebrow Tint $15\
 Lash Tint $30\
 Brow and Lash Tint $40
 
-### \
 **Spray Tanning**
+
+The Good Tan  ( shower in 5-8 hours )    $40
+
+The Good Tan EXPRESS ( shower in 1 - 4 hours )    $50
+
+
 
 • lasts 7 - 12 days , with proper aftercare
 
@@ -60,9 +63,3 @@ Brow and Lash Tint $40
  • lightweight, non-sticky formula 
 
 • designed for all skin tones
-
-
-
-The Good Tan  ( shower in 5-8 hours )    $40
-
-The Good Tan EXPRESS ( shower in 1 - 4 hours )    $50
