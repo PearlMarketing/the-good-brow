@@ -1,6 +1,6 @@
 ---
 templateKey: waxing-page
-title: Waxing Services
+title: Waxing // Spray Tanning Services
 ---
 Waxing is the most common form of hair removal for fast, flawless
 results.\
@@ -11,6 +11,8 @@ appointment.\
 Please stop use of any Accutane or Retin-A at least 72 hours
 before a wax.\
 Clients must be at least 18 years of age with a Valid ID
+
+
 
 ### Women's Full Body Waxing
 
@@ -39,3 +41,28 @@ Full Face $40
 Eyebrow Tint $15\
 Lash Tint $30\
 Brow and Lash Tint $40
+
+### \
+**Spray Tanning**
+
+• lasts 7 - 12 days , with proper aftercare
+
+• flawless fade
+
+• odorless
+
+• customizable color (light, medium, dark)
+
+• paraben free, cruelty free, gluten free
+
+• 99% natural, skin nourishing ingredients 
+
+ • lightweight, non-sticky formula 
+
+• designed for all skin tones
+
+
+
+The Good Tan  ( shower in 5-8 hours )    $40
+
+The Good Tan EXPRESS ( shower in 1 - 4 hours )    $50
