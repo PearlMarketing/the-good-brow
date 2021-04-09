@@ -40,13 +40,12 @@ Eyebrow Tint $15\
 Lash Tint $30\
 Brow and Lash Tint $40
 
+### \
 **Spray Tanning**
 
 The Good Tan  ( shower in 5-8 hours )    $40
 
 The Good Tan EXPRESS ( shower in 1 - 4 hours )    $50
-
-
 
 • lasts 7 - 12 days , with proper aftercare
 
