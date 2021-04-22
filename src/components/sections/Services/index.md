@@ -18,8 +18,12 @@ service:
       doctor.
     price: Free (30 minutes)
     title: Consultation
-  - description: __[_Click Here to Pay Microblading
-      Deposit_](https://checkout.square.site/pay/7713ad15-45a2-41f6-bb8d-afda06c8669a)__
+  - description: >-
+      ***[Click Here to Pay Microblading
+      Deposit](https://checkout.square.site/pay/7713ad15-45a2-41f6-bb8d-afda06c8669a)***
+
+
+      ***\*\*non-refundable\*\****
     price: $100
     title: Microblading Deposit
   - description: |-
