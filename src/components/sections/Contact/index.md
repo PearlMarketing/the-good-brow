@@ -1,5 +1,6 @@
 ---
 templateKey: contact-page
+menuLink: Contact
 title: Contact
 ---
 Online booking available at :     www.vagaro.com/thegoodbrow
