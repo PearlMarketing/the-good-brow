@@ -1,5 +1,6 @@
 ---
 templateKey: faq-page
+menuLink: FAQ
 title: FAQ
 questions:
   - answer: >-
@@ -7,8 +8,7 @@ questions:
 
       No Advil or blood thinning medication for 48 hours before appointment\
 
-      No brow waxing 72 hours before appointment/ No brow tinting for a week
-      before appointment\
+      No brow waxing 72 hours before appointment/ No brow tinting for a week before appointment\
 
       No Botox or fillers 2 weeks before or 2 weeks after your appointment\
 
@@ -25,20 +25,27 @@ questions:
       Epileptic  
       Uncontrolled High Blood Pressure
     question: How to know if you are NOT a good candidate for Microblading
-  - answer: >-
-      I book all first time Microblading appointments for a minimum of 2 hours.
-      This includes measuring and mapping the brows, numbing, color selection,
-      microblading procedure and going over your at home aftercare instructions.
+  - answer: I book all first time Microblading appointments for a minimum of 2
+      hours. This includes measuring and mapping the brows, numbing, color
+      selection, microblading procedure and going over your at home aftercare
+      instructions.
     question: How long is a Microblading Appointment?
-  - answer: >-
-      I please ask that you do not bring children. Your brows need my full
+  - answer: I please ask that you do not bring children. Your brows need my full
       attention!
     question: Can I bring my kids to this appointment?
   - answer: I use a topical numbing agent. Most of my clients dont feel a thing!
     question: Does it hurt?
-  - answer: "Typically, for most clients, about 12-18 months after the 6-8 week toouch up.\_ \nAt home care and being mindful of your new brows is extremely encouraged!  \nTanning, exfoliants, smoking, excessive sweating, and salt water swimming are some factors to early fading in some people.\_"
+  - answer: >-
+      Typically, for most clients, about 12-18 months after the 6-8 week toouch
+      up.  
+
+      At home care and being mindful of your new brows is extremely encouraged!  
+
+      Tanning, exfoliants, smoking, excessive sweating, and salt water swimming are some factors to early fading in some people. 
     question: How long does it last?
-  - answer: "Surface healing takes about 10 days after your initial appointment.\_ \nI will give you a take home aftercare sheet to go over any questions you may have before you come back for your touch up visit."
+  - answer: >-
+      Surface healing takes about 10 days after your initial appointment.  
+
+      I will give you a take home aftercare sheet to go over any questions you may have before you come back for your touch up visit.
     question: How long will it take to heal?
 ---
-
