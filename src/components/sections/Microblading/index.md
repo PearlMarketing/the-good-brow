@@ -1,5 +1,6 @@
 ---
 templateKey: microblading-page
+menuLink: What is Microblading?
 title: What is Microblading?
 ---
 Microblading is a technique used for enhancing the appearance of the eyebrows. Pigment is implanted into the skin in fine, short strokes resembling hair, using a hand-held tool with a blade formed of tiny needles. Microblading is meant to look the most natural.
