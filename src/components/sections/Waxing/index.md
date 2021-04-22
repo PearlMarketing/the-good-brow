@@ -1,5 +1,6 @@
 ---
 templateKey: waxing-page
+menuLink: Waxing & Spray Tans
 title: Waxing // Spray Tanning Services
 ---
 Waxing is the most common form of hair removal for fast, flawless
