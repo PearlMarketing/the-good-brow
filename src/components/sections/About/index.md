@@ -1,5 +1,6 @@
 ---
 templateKey: about-page
+menuLink: About
 title: About Me
 ---
 ![](/img/7fbfdacf-35bf-4956-a272-9e6956e73dee.jpeg)
