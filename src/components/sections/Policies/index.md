@@ -1,6 +1,7 @@
 ---
 templateKey: policies-page
-title: 'Policies: Microbalding & Body Waxing'
+menuLink: Policies
+title: "Policies: Microbalding & Body Waxing"
 ---
 ### POLICIES FOR MICROBLADING
 
