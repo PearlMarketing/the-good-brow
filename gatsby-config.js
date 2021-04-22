@@ -83,12 +83,6 @@ module.exports = {
               destinationDir: 'static',
             },
           },
-          {
-            resolve: 'gatsby-source-instagram',
-            options: {
-              username: `5669839098`,
-            },
-          },
         ],
       },
     },

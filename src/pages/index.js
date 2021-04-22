@@ -206,14 +206,14 @@ class IndexPage extends React.Component {
                   text="This is the Instagram Feed for The Good Brow NH"
                   // nodes={data.allInstaNode}
                 />
-                <Instagram />
+                {/* <Instagram /> */}
                 <Footer timeout={this.state.timeout} />
               </div>
               <Background />
             </div>
           </Layout>
-    //     )}
-    //   />
+      //   )}
+      // />
     )
   }
 }

@@ -20,6 +20,7 @@ collections:
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Menu Link", name: "menuLink", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/components/sections/Services/index.md"
@@ -27,6 +28,7 @@ collections:
         name: "services"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-page"}
+          - {label: "Menu Link", name: "menuLink", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - label: "Service"
             name: "service"
@@ -40,6 +42,7 @@ collections:
         name: "waxing"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "waxing-page"}
+          - {label: "Menu Link", name: "menuLink", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/components/sections/Microblading/index.md"
@@ -47,6 +50,7 @@ collections:
         name: "microblading"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "microblading-page"}
+          - {label: "Menu Link", name: "menuLink", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/components/sections/Policies/index.md"
@@ -54,6 +58,7 @@ collections:
         name: "policies"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "policies-page"}
+          - {label: "Menu Link", name: "menuLink", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/components/sections/FAQ/index.md"
@@ -61,6 +66,7 @@ collections:
         name: "faq"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "faq-page"}
+          - {label: "Menu Link", name: "menuLink", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - label: "Questions"
             name: "questions"
@@ -73,6 +79,7 @@ collections:
         name: "contact"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+          - {label: "Menu Link", name: "menuLink", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
   - name: "settings"

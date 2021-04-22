@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Box, Heading, Text, ResponsiveContext } from 'grommet'
-import { InstagramPosts } from '.'
+import { InstagramPosts } from './InstagramPosts'
 import instagramImg from '../../images/Instagram-Button-715x715.png'
 
 const Container = ({ title, text, nodes, timeout }) => {
