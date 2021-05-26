@@ -5,25 +5,24 @@ title: "Policies: Microbalding & Body Waxing"
 ---
 ### POLICIES FOR MICROBLADING
 
-Please arrive 15 minutes before your scheduled appointment to fill out
-paperwork.
-
 There are many factors that affect the healing process that I have no
 control over  (how you take care of your brow tattoo, how your skin
 heals and retains pigment, skin type etc.). There is absolutely no
 guarantee with healed results.
 
-All appointments require a $100 deposit prior to booking.  Deposits
-are non-refundable but transferable to re-schedule an appointment if
-48 hours notice is given. The amount is deducted from the final cost,
-which is due the day of your service.
-I accept Cash and major credit cards. I do not offer any
-refunds.
-
-As these appointments take considerable time, I require 48 hours of
-notice to reschedule an appointment. Cancellations with less than 48
+A credit card is required on file to book a Microblading appointment. As these appointments take considerable time, I require 48 hours of notice to reschedule an appointment. Cancellations with less than 48
 hours notice will be charged a $50 fee. If you cancel with less than
 24 hours notice the full deposit will be automatically forfeited.
+
+\
+All appointments require a $100 deposit prior to booking.  Deposits
+are non-refundable but transferable to re-schedule an appointment if
+the 48 hours notice is given. The amount is deducted from the final cost,
+which is due the day of your service.
+
+
+I accept all major  credit cards. I do not offer any
+refunds.
 
 Please contact me if you are not able to make your appointment or if
 you are running late. I understand last minuite circumstances happen
