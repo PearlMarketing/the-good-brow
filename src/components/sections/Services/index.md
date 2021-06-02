@@ -16,7 +16,7 @@ service:
       If you have any medical issues that you feel might be a
       contraindication, then I require you get clearance from your
       doctor.
-    price: Free (30 minutes)
+    price: "15.00"
     title: Consultation
   - description: >-
       ***[Click Here to Pay Microblading
