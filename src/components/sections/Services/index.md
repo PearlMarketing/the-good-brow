@@ -62,7 +62,7 @@ service:
 
 
       Color Boosts are only available to clients who have completed a previous microblading session with me in the past; no sooner than 6 months after initial appointment.
-    price: $125 (1 hour +)
+    price: $175 (1 hour +)
     title: Color Boost
   - price: $195 (1 hour +)
     title: Annual Touch-Up (Existing clients only)
