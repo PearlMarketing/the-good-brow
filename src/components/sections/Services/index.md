@@ -33,14 +33,16 @@ service:
       best suited for you!
 
       6-8 week touch ups are recommended for best long term results.
-    price: $450 (2 hours)
+    price: $475 (2 hours)
     title: Microblading
+  - price: $125 (1 hour 15 min)
+    title: Touch-up (6-8 weeks after initial appontment)
   - description: |-
       Blending hairstrokes and shading together for added depth and
       definition to your brows.
 
       6-8 week touch ups are recommended for best long term results.
-    price: $475 (2+ hours)
+    price: $525 (2+ hours)
     title: Blade & Shade Brows
   - description: >-
       Powder brows is a form of permanent makeup that help clients achieve more
@@ -52,8 +54,8 @@ service:
       6-8 week touch ups are recommended for best long term results.
     price: $500.00 (2 hour +)
     title: Powder Brows
-  - price: $85 (1 hour 15 min)
-    title: Touch-up (6-8 weeks after initial appontment)
+  - price: $250 (1 hour 30 min+)
+    title: Annual Touch-Up (Existing clients only)
   - description: >-
       Not quite ready for your annual touch up?
 
@@ -64,8 +66,6 @@ service:
       Color Boosts are only available to clients who have completed a previous microblading session with me in the past; no sooner than 6 months after initial appointment.
     price: $175 (1 hour +)
     title: Color Boost
-  - price: $195 (1 hour +)
-    title: Annual Touch-Up (Existing clients only)
   - description: This is for the client who has done her 6 week touch up already-
       but theres a few spots that didnt take as well as hoped, or would like to
       add a few strokes that you were unsure about before!
