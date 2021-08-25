@@ -18,9 +18,9 @@ Clients must be at least 18 years of age with a Valid ID
 Brazilian $55\
 Bikini $25\
 French-Bikini $35\
-Full Legs and Brazilian $95\
-Full Legs and Bikini $85\
-1/2 legs $65\
+Full Legs and Brazilian $100\
+Full Legs and Bikini $90\
+1/2 legs $70\
 Full Arms $40\
 1/2 Arms $30\
 Underarms $17\
@@ -30,7 +30,7 @@ Thong and Buttocks $35
 
 Eyebrow Shaping $20\
 Upper Lip $12\
-Eyebrow and Upper Lip $25\
+Eyebrow and Upper Lip $27\
 Chin $12\
 Side of Face $12\
 Full Face $40
@@ -41,7 +41,7 @@ Eyebrow Tint $15\
 Lash Tint $30\
 Brow and Lash Tint $40
 
-## **Spray Tanning** 
+## **Spray Tanning**
 
 The Good Tan  ( shower in 5-8 hours )    $40
 
