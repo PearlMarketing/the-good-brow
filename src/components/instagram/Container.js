@@ -24,7 +24,7 @@ const Container = ({ title, text, nodes, timeout }) => {
           style={{ width: '300px' }}
         />
       </a>
-      {/* <InstagramPosts nodes={nodes} /> */}
+      <InstagramPosts nodes={nodes} />
     </Box>
   )
 }
