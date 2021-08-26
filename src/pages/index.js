@@ -99,30 +99,30 @@ class IndexPage extends React.Component {
 
   render() {
     return (
-      <StaticQuery
-        query={graphql`
-          query MainPageQuery {
-            allInstaNode(limit: 50, sort: { fields: timestamp, order: DESC }) {
-              edges {
-                node {
-                  id
-                  username
-                  likes
-                  caption
-                  comments
-                  localFile {
-                    childImageSharp {
-                      fluid(quality: 70, maxWidth: 600, maxHeight: 600) {
-                        ...GatsbyImageSharpFluid_withWebp
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        `}
-        render={data => (
+      // <StaticQuery
+      //   query={graphql`
+      //     query MainPageQuery {
+      //       allInstaNode(limit: 50, sort: { fields: timestamp, order: DESC }) {
+      //         edges {
+      //           node {
+      //             id
+      //             username
+      //             likes
+      //             caption
+      //             comments
+      //             localFile {
+      //               childImageSharp {
+      //                 fluid(quality: 70, maxWidth: 600, maxHeight: 600) {
+      //                   ...GatsbyImageSharpFluid_withWebp
+      //                 }
+      //               }
+      //             }
+      //           }
+      //         }
+      //       }
+      //     }
+      //   `}
+      //   render={data => (
           <Layout location={this.props.location}>
             <div
               className={`body ${this.state.loading} ${
@@ -201,10 +201,10 @@ class IndexPage extends React.Component {
                   />
                 </div>
                 <InstaFeed
-                  timeout={this.state.timeout}
+                  // timeout={this.state.timeout}
                   title="Instagram Feed"
                   text="This is the Instagram Feed for The Good Brow NH"
-                  nodes={data.allInstaNode}
+                  // nodes={data.allInstaNode}
                 />
                 {/* <Instagram /> */}
                 <Footer timeout={this.state.timeout} />
@@ -212,8 +212,8 @@ class IndexPage extends React.Component {
               <Background />
             </div>
           </Layout>
-        )}
-      />
+        // )}
+      // />
     )
   }
 }
