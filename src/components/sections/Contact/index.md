@@ -3,7 +3,7 @@ templateKey: contact-page
 menuLink: Contact
 title: Contact
 ---
-Online booking available at :     www.vagaro.com/thegoodbrow
+Online booking available at :     https://the-good-brow.square.site/
 
 908 Hanover St, Suite 4, Manchester NH 03104
 
