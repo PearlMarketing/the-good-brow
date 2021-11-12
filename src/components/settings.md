@@ -3,6 +3,6 @@ templateKey: settings
 title: The Good Brow
 background: /img/background-image.jpg
 button: Book Now
-buttonURL: https://the-good-brow.square.site
+buttonURL: https://www.the-good-brow.square.site
 ---
 Permanent Makeup, Women’s Body Waxing and Spray Tanning in Manchester, NH
