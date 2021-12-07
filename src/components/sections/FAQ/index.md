@@ -33,7 +33,7 @@ questions:
   - answer: I please ask that you do not bring children. Your brows need my full
       attention!
     question: Can I bring my kids to this appointment?
-  - answer: I use a topical numbing agent. Most of my clients dont feel a thing!
+  - answer: I use a 5% topical lidocaine cream. Most of my clients dont feel a thing!
     question: Does it hurt?
   - answer: >-
       Typically, for most clients, about 12-18 months after the 6-8 week touch
