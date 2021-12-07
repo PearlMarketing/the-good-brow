@@ -1,7 +1,7 @@
 ---
 templateKey: microblading-page
-menuLink: What is Microblading?
-title: What is Microblading?
+menuLink: What is Cosmetic Tattooing?
+title: What is Cosmetic Tattooing?
 ---
 Microblading is a technique used for enhancing the appearance of the eyebrows. Pigment is implanted into the skin in fine, short strokes resembling hair, using a hand-held tool with a blade formed of tiny needles. Microblading is meant to look the most natural.
 
@@ -9,6 +9,4 @@ Powder brows is a form of permanent makeup that help clients achieve more of a p
 
 Blade and Shade brows are a combination of hairstrokes and powder. This is the most popular in the microblading world! These brows are best for someone with already full but “patchy” brows.
 
-
-
-Online booking available at :     www.vagaro.com/thegoodbrow
+Online booking available at :     https://the-good-brow.square.site
