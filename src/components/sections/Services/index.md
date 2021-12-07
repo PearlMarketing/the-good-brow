@@ -1,7 +1,7 @@
 ---
 templateKey: services-page
 menuLink: Services
-title: Microblading Services
+title: Cosmetic Tattoo Services
 service:
   - description: |-
       Text and e-mail consults available upon request.
@@ -19,13 +19,22 @@ service:
     price: "15.00"
     title: Consultation
   - description: >-
-      ***[Click Here to Pay Microblading
-      Deposit](https://checkout.square.site/pay/7713ad15-45a2-41f6-bb8d-afda06c8669a)***
+      Powder brows is a form of permanent makeup that help clients achieve more
+      of a powder look instead of individual hair strokes. Powdered brows heal
+      to look like a soft makeup and work great for clients with mature or oily
+      skin.
 
 
-      ***This secures your appointment with the good brow. It is transferable if rescheduling is needed but \*\*non-refundable\*\****
-    price: $100
-    title: Microblading Deposit
+      6-8 week touch ups are recommended for best long term results.
+    price: $500.00 (2 hour +)
+    title: Powder Brows
+  - description: |-
+      Blending hairstrokes and shading together for added depth and
+      definition to your brows.
+
+      6-8 week touch ups are recommended for best long term results.
+    price: $525 (2+ hours)
+    title: Blade & Shade Brows
   - description: |-
       Hairstrokes throughout the entire brow. 
 
@@ -37,23 +46,6 @@ service:
     title: Microblading
   - price: $125 (1 hour 15 min)
     title: Touch-up (6-8 weeks after initial appontment)
-  - description: |-
-      Blending hairstrokes and shading together for added depth and
-      definition to your brows.
-
-      6-8 week touch ups are recommended for best long term results.
-    price: $525 (2+ hours)
-    title: Blade & Shade Brows
-  - description: >-
-      Powder brows is a form of permanent makeup that help clients achieve more
-      of a powder look instead of individual hair strokes. Powdered brows heal
-      to look like a soft makeup and work great for clients with mature or oily
-      skin.
-
-
-      6-8 week touch ups are recommended for best long term results.
-    price: $500.00 (2 hour +)
-    title: Powder Brows
   - price: $250 (1 hour 30 min+)
     title: Annual Touch-Up (Existing clients only)
   - description: >-
