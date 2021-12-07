@@ -1,6 +1,6 @@
 ---
 templateKey: settings
-title: The Good Brows
+title: The Good Brow
 background: /img/background-image.jpg
 button: Book Now
 buttonURL: https://www.the-good-brow.square.site
