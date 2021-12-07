@@ -15,22 +15,5 @@ Online booking available at :     https://the-good-brow.square.site
 
 Please click the link below to fill out consent forms if you are making a Cosmetic Tattoo appointment to save time when you arrive !
 
- 
-
-```
-
-    <a
-      href="javascript:void(
-        window.open(
-          'https://form.jotform.com/213395459142156',
-          'blank',
-          'scrollbars=yes,
-          toolbar=no,
-          width=700,
-          height=500'
-        )
-      )
-    ">
-      Cosmetic Brow Tattoo
-    </a>
-```
+ \
+<a href="javascript:void( window.open( 'https://form.jotform.com/213395459142156', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) "> Cosmetic Brow Tattoo </a>
