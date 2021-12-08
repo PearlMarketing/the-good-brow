@@ -20,6 +20,13 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Menu Link", name: "menuLink", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "List (Optional)"
+        name: "list"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Price or Subtitle", name: "price", widget: "string", required: false}
+          - {label: "Description", name: "description", widget: "markdown", required: false}
     # files:
     #   - file: "src/components/sections/About/index.md"
     #     label: "About"
@@ -112,4 +119,5 @@ collections:
           - label: "Links"
             name: "link"
             widget: "list"
+            summary: "{{fields.page}}"
             field: {label: Page, name: page, widget: relation, collection: "pages", value_field: "menuLink", search_fields: ["menuLink"]}
