@@ -5,8 +5,7 @@ title: "Policies: Microbalding & Body Waxing"
 ---
 ### POLICIES FOR MICROBLADING
 
-There are many factors that affect the healing process that I have no
-control over  (how you take care of your brow tattoo, how your skin
+There are many factors that affect the healing process  (how you take care of your brow tattoo, how your skin
 heals and retains pigment, skin type etc.). There is absolutely no
 guarantee with healed results.
 
@@ -19,7 +18,6 @@ All appointments require a $100 deposit prior to booking.  Deposits
 are non-refundable but transferable to re-schedule an appointment if
 the 48 hours notice is given. The amount is deducted from the final cost,
 which is due the day of your service.
-
 
 I accept all major  credit cards. I do not offer any
 refunds.
