@@ -3,7 +3,7 @@ templateKey: policies-page
 menuLink: Policies
 title: "Policies: Microbalding & Body Waxing"
 ---
-### POLICIES FOR MICROBLADING
+### POLICIES FOR COSMETIC TATTOOING
 
 There are many factors that affect the healing process  (how you take care of your brow tattoo, how your skin
 heals and retains pigment, skin type etc.). There is absolutely no
