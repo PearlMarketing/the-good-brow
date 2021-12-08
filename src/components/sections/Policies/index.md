@@ -9,23 +9,21 @@ There are many factors that affect the healing process  (how you take care of y
 heals and retains pigment, skin type etc.). There is absolutely no
 guarantee with healed results.
 
-A credit card is required on file to book a Microblading appointment. As these appointments take considerable time, I require 48 hours of notice to reschedule an appointment. Cancellations with less than 48
-hours notice will be charged a $50 fee. If you cancel with less than
+A credit card is required on file to book a tattoo appointment. As these appointments take considerable time, I require 48 hours of notice to reschedule an appointment. Cancellations with less than 48
+hours notice will be charged half of the cost of the service. If you cancel with less than
 24 hours notice the full deposit will be automatically forfeited.
 
-\
-All appointments require a $100 deposit prior to booking.  Deposits
-are non-refundable but transferable to re-schedule an appointment if
-the 48 hours notice is given. The amount is deducted from the final cost,
-which is due the day of your service.
 
-I accept all major  credit cards. I do not offer any
+
+I accept all major credit cards. I do not offer any
 refunds.
+
+
 
 Please contact me if you are not able to make your appointment or if
 you are running late. I understand last minuite circumstances happen
 and I will do my best to accommodate you. Being more than 15 minutes
-late may result in a forfeit of your deposit and re-scheduling of your
+late may result in a deposit and re-scheduling of your
 appointment.
 
 NO SHOW APPOINTMENTS: The deposit will be forfeited if the client
