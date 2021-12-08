@@ -74,6 +74,7 @@ const Header = props => {
           </div>
           <nav>
             <ul>
+              {/* Map out nav pages */}
               <li>
                 <a
                   href="javascript:;"
