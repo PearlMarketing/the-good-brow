@@ -5,4 +5,4 @@ background: /img/background-image.jpg
 button: Book Now
 buttonURL: https://the-good-brow.square.site/
 ---
-Permanent Makeup, Women’s Body Waxing and Spray Tanning in Manchester, NH
+Permanent Makeup, Tiny Tattoos, Women’s Body Waxing and Spray Tanning in Manchester, NH
