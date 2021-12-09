@@ -21,7 +21,7 @@ collections:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Menu Link", name: "menuLink", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
       - label: "List (Optional)"
         name: "list"
         widget: "list"
