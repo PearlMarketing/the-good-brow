@@ -1,4 +1,5 @@
 ---
+templateKey: navigation
 link:
   - about
   - cosmetic-tattoo-services

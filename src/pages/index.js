@@ -267,6 +267,12 @@ export const query = graphql`
         }
       }
     }
+    navigation: markdownRemark(frontmatter: { templateKey: { eq: "navigation" } }) {
+      html
+      frontmatter {
+        link
+      }
+    }
     global: markdownRemark(frontmatter: { templateKey: { eq: "global" } }) {
       html
       frontmatter {

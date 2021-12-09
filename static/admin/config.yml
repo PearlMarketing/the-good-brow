@@ -124,7 +124,7 @@ collections:
             name: "link"
             widget: "list"
             summary: "{{fields.page}}"
-            field: {label: Page, name: page, widget: relation, collection: "pages", value_field: "menuLink", search_fields: ["menuLink"]}
+            field: {label: Page, name: page, widget: relation, collection: "pages", value_field: "slug", search_fields: ["menuLink"], display_fields: ["menuLink"]}
   - name: "global"
     label: "Global"
     files:

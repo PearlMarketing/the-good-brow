@@ -72,16 +72,19 @@ const Header = ({ data, ...props }) => {
       <nav>
         <ul>
           {/* Map out nav pages */}
-          {data.pages.edges.map(({ node }) => (
+          {data.navigation.frontmatter.link.map(link => (
             <li>
               <a
                 href="javascript:;"
                 onClick={() => {
-                  console.log(node.frontmatter)
-                  props.onOpenArticle(node.frontmatter.slug)
+                  props.onOpenArticle(link)
                 }}
               >
-                {node.frontmatter.menuLink}
+                {
+                  data.pages.edges.find(
+                    ({ node }) => node.frontmatter.slug === link
+                  ).node.frontmatter.menuLink
+                }
               </a>
             </li>
           ))}
