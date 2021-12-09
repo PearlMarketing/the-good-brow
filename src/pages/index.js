@@ -152,6 +152,7 @@ class IndexPage extends React.Component {
                   onCloseArticle={this.handleCloseArticle}
                   setWrapperRef={this.setWrapperRef}
                   data={node}
+                  global={this.props.data.global}
                 />
               ))}
               {/* <About
@@ -264,6 +265,12 @@ export const query = graphql`
             }
           }
         }
+      }
+    }
+    global: markdownRemark(frontmatter: { templateKey: { eq: "global" } }) {
+      html
+      frontmatter {
+        footer
       }
     }
   }

@@ -15,6 +15,7 @@ const Content = ({
   onCloseArticle,
   setWrapperRef,
   data,
+  global
 }) => {
   let close = (
     <div
@@ -54,10 +55,7 @@ const Content = ({
           )
         }
       )}
-      <p>
-        *Your safety is important to me! I am NH Blood-borne Pathogen Certified
-        &amp; I use all disposable tools and cruelty free, organic pigments.*
-      </p>
+      <div dangerouslySetInnerHTML={{ __html: global.footer }} />
       {close}
     </article>
   )
