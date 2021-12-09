@@ -1,4 +1,6 @@
 ---
+collection: page
+slug: cosmetic-tattoo-services
 menuLink: Services
 title: Cosmetic Tattoo Services
 list:

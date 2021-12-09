@@ -1,4 +1,6 @@
 ---
+collection: page
+slug: contact
 menuLink: Contact
 title: Contact
 ---

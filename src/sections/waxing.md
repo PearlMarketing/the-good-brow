@@ -1,4 +1,6 @@
 ---
+collection: page
+slug: waxing-spray-tans
 menuLink: Waxing & Spray Tans
 title: Waxing // Spray Tanning Services
 ---

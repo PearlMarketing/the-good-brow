@@ -12,10 +12,11 @@ import Policies from '../components/sections/Policies'
 import FAQ from '../components/sections/FAQ'
 import Contact from '../components/sections/Contact'
 import InstaFeed from '../components/instagram/Container'
-import Instagram from "../components/instagram"
+import Instagram from '../components/instagram'
 
 import Footer from '../components/Footer'
 import Background from '../components/Background'
+import Content from '../components/Content'
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -123,99 +124,147 @@ class IndexPage extends React.Component {
       //     }
       //   `}
       //   render={data => (
-          <Layout location={this.props.location}>
+      <Layout location={this.props.location}>
+        <div
+          className={`body ${this.state.loading} ${
+            this.state.isArticleVisible ? 'is-article-visible' : ''
+          }`}
+        >
+          <div id="wrapper">
+            <Header
+              data={this.props.data}
+              onOpenArticle={this.handleOpenArticle}
+              timeout={this.state.timeout}
+            />
             <div
-              className={`body ${this.state.loading} ${
-                this.state.isArticleVisible ? 'is-article-visible' : ''
-              }`}
+              ref={this.setWrapperRef}
+              id="main"
+              style={
+                this.state.timeout ? { display: 'flex' } : { display: 'none' }
+              }
             >
-              <div id="wrapper">
-                <Header
-                  onOpenArticle={this.handleOpenArticle}
+              {this.props.data.pages.edges.map(({ node }) => (
+                <Content
+                  isArticleVisible={this.state.isArticleVisible}
                   timeout={this.state.timeout}
+                  articleTimeout={this.state.articleTimeout}
+                  article={this.state.article}
+                  onCloseArticle={this.handleCloseArticle}
+                  setWrapperRef={this.setWrapperRef}
+                  data={node}
                 />
-                <div
-                  ref={this.setWrapperRef}
-                  id="main"
-                  style={
-                    this.state.timeout
-                      ? { display: 'flex' }
-                      : { display: 'none' }
-                  }
-                >
-                  <About
-                    isArticleVisible={this.state.isArticleVisible}
-                    timeout={this.state.timeout}
-                    articleTimeout={this.state.articleTimeout}
-                    article={this.state.article}
-                    onCloseArticle={this.handleCloseArticle}
-                    setWrapperRef={this.setWrapperRef}
-                  />
-                  <Services
-                    isArticleVisible={this.state.isArticleVisible}
-                    timeout={this.state.timeout}
-                    articleTimeout={this.state.articleTimeout}
-                    article={this.state.article}
-                    onCloseArticle={this.handleCloseArticle}
-                    setWrapperRef={this.setWrapperRef}
-                  />
-                  <Waxing
-                    isArticleVisible={this.state.isArticleVisible}
-                    timeout={this.state.timeout}
-                    articleTimeout={this.state.articleTimeout}
-                    article={this.state.article}
-                    onCloseArticle={this.handleCloseArticle}
-                    setWrapperRef={this.setWrapperRef}
-                  />
-                  <Microblading
-                    isArticleVisible={this.state.isArticleVisible}
-                    timeout={this.state.timeout}
-                    articleTimeout={this.state.articleTimeout}
-                    article={this.state.article}
-                    onCloseArticle={this.handleCloseArticle}
-                    setWrapperRef={this.setWrapperRef}
-                  />
-                  <Policies
-                    isArticleVisible={this.state.isArticleVisible}
-                    timeout={this.state.timeout}
-                    articleTimeout={this.state.articleTimeout}
-                    article={this.state.article}
-                    onCloseArticle={this.handleCloseArticle}
-                    setWrapperRef={this.setWrapperRef}
-                  />
-                  <FAQ
-                    isArticleVisible={this.state.isArticleVisible}
-                    timeout={this.state.timeout}
-                    articleTimeout={this.state.articleTimeout}
-                    article={this.state.article}
-                    onCloseArticle={this.handleCloseArticle}
-                    setWrapperRef={this.setWrapperRef}
-                  />
-                  <Contact
-                    isArticleVisible={this.state.isArticleVisible}
-                    timeout={this.state.timeout}
-                    articleTimeout={this.state.articleTimeout}
-                    article={this.state.article}
-                    onCloseArticle={this.handleCloseArticle}
-                    setWrapperRef={this.setWrapperRef}
-                  />
-                </div>
-                <InstaFeed
-                  // timeout={this.state.timeout}
-                  title="Instagram Feed"
-                  text="This is the Instagram Feed for The Good Brow NH"
-                  // nodes={data.allInstaNode}
-                />
-                {/* <Instagram /> */}
-                <Footer timeout={this.state.timeout} />
-              </div>
-              <Background />
+              ))}
+              {/* <About
+                isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <Services
+                isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <Waxing
+                isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <Microblading
+                isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <Policies
+                isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <FAQ
+                isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              />
+              <Contact
+                isArticleVisible={this.state.isArticleVisible}
+                timeout={this.state.timeout}
+                articleTimeout={this.state.articleTimeout}
+                article={this.state.article}
+                onCloseArticle={this.handleCloseArticle}
+                setWrapperRef={this.setWrapperRef}
+              /> */}
             </div>
-          </Layout>
-        // )}
+            <InstaFeed
+              // timeout={this.state.timeout}
+              title="Instagram Feed"
+              text="This is the Instagram Feed for The Good Brow NH"
+              // nodes={data.allInstaNode}
+            />
+            {/* <Instagram /> */}
+            <Footer timeout={this.state.timeout} />
+          </div>
+          <Background />
+        </div>
+      </Layout>
+      // )}
       // />
     )
   }
 }
 
 export default IndexPage
+
+export const query = graphql`
+  query {
+    settings: markdownRemark(frontmatter: { templateKey: { eq: "settings" } }) {
+      html
+      frontmatter {
+        title
+        button
+        buttonURL
+      }
+    }
+    pages: allMarkdownRemark(
+      filter: { frontmatter: { collection: { eq: "page" } } }
+    ) {
+      edges {
+        node {
+          id
+          html
+          frontmatter {
+            collection
+            slug
+            title
+            menuLink
+            templateKey
+            background
+            button
+            buttonURL
+            list {
+              description
+              price
+              title
+            }
+          }
+        }
+      }
+    }
+  }
+`

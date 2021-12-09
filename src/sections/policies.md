@@ -1,4 +1,6 @@
 ---
+collection: page
+slug: policies
 menuLink: Policies
 title: "Policies: Microbalding & Body Waxing"
 ---
