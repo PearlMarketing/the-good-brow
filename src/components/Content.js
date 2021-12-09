@@ -55,7 +55,7 @@ const Content = ({
           )
         }
       )}
-      <div dangerouslySetInnerHTML={{ __html: global.footer }} />
+      <div dangerouslySetInnerHTML={{ __html: global.frontmatter.footer }} />
       {close}
     </article>
   )
