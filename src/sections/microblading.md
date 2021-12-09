@@ -1,4 +1,6 @@
 ---
+collection: page
+slug: cosmetic-tattooing
 menuLink: Cosmetic Brow Tattoo & Consent Form
 title: Cosmetic Tattooing & Consent Form
 ---

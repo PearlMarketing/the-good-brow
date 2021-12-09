@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/components/sections`,
+        path: `${__dirname}/src/sections`,
         name: 'pages',
       },
     },

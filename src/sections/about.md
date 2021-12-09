@@ -1,4 +1,6 @@
 ---
+collection: page
+slug: about
 title: About
 menuLink: About
 ---
