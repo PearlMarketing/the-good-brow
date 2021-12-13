@@ -8,4 +8,5 @@ link:
   - policies
   - faq
   - contact
+  - Tiny Tattoos
 ---
