@@ -2,11 +2,11 @@
 templateKey: navigation
 link:
   - about
-  - cosmetic-tattoo-services
-  - waxing-spray-tans
-  - cosmetic-tattooing
   - policies
+  - cosmetic-tattoo-services
+  - cosmetic-tattooing
+  - Tiny Tattoos
+  - waxing-spray-tans
   - faq
   - contact
-  - Tiny Tattoos
 ---
