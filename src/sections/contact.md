@@ -1,8 +1,8 @@
 ---
 collection: page
 slug: contact
-menuLink: Contact
 title: Contact
+menuLink: Contact
 ---
 Online booking available at :     https://the-good-brow.square.site/
 
@@ -10,7 +10,7 @@ Online booking available at :     https://the-good-brow.square.site/
 
 Phone: 603-260-7406- texting preferred.
 
-Email: thegoodbrowconcord@gmail.com
+Email: thegoodbrowmanchester@gmail.com
 
 Instagram: 
 
