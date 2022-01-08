@@ -4,7 +4,7 @@ slug: about
 title: About
 menuLink: About
 ---
-![](/img/1c5f9dc6-cf57-4097-93b5-bd6ba1725e52.jpeg)
+![](/img/aaa0636c-58a3-4f54-9fd7-20a2c7db7d50.jpeg)
 
 Hi! My name is Emily and I am the owner of The Good Brow, LLC located in Manchester, NH.  I'm also a mama to the most amazing little man! I know the struggle and hustle of every day life- and somehow, BROWS help! 
 
