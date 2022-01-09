@@ -1,19 +1,34 @@
 ---
 collection: page
 slug: faq
-menuLink: FAQ
 title: FAQ
+menuLink: FAQ
 list:
   - description: >-
-      No Alcohol or Caffeine 24-48 hours before appointment\
+      PRE APPOINTMENT CARE:
 
-      No Advil or blood thinning medication for 48 hours before appointment\
 
-      No brow waxing 72 hours before appointment/ No brow tinting for a week before appointment\
+      \
 
-      No Botox or fillers 2 weeks before or 2 weeks after your appointment\
+      •no retinol or tretinoin for 4 weeks prior.
 
-      Do not arrive with a sunburn, or your appointment will be rescheduled
+
+      •no accutane for ONE YEAR prior, dr note required.
+
+
+      •facials, microdermabrasion, peels, microneedling, or laser treatments 4 weeks prior.
+
+
+      •no facial products containing AHA or BHA’s for one week prior.
+
+
+      •waxing or tinting brows one week prior.
+
+
+      •absolutely no sunburns
+
+
+      •no alcohol, caffeinated beverages, ibuprofen, aspirin or vitamin E 48 hours prior.
     title: How to Prepare for your Appointment
   - description: |-
       You are Pregnant or Nursing  
@@ -31,9 +46,9 @@ list:
       selection, microblading procedure and going over your at home aftercare
       instructions.
     title: How long is a Cosmetic Brow Tattoo Appointment?
-  - description: I please ask that you do not bring children. Your brows need my full
-      attention!
-    title: Can I bring my kids to this appointment?
+  - description: I please ask that you do not bring children or friends. Your brows
+      need my full attention!
+    title: Can I bring my someone with me to this appointment?
   - description: I use a 5% topical lidocaine cream. Most of my clients dont feel a thing!
     title: Does it hurt?
   - description: >-
