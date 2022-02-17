@@ -15,6 +15,4 @@ Tiny tattoo’s are done with a single needle or small needle configuration depe
   <a href="javascript:void( window.open( 'https://form.jotform.com/213396251632151', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) "> Tiny Tattoo Request Form </a>
 
   \
-  \
-  \
   <a href="javascript:void( window.open( 'https://form.jotform.com/220464561927156', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) "> Tiny Tattoo Consent Form </a>
