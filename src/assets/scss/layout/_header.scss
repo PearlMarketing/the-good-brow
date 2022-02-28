@@ -181,7 +181,7 @@
 			}
 		}
 
-		@include breakpoint(medium) {
+		@include breakpoint(large) {
 			.content {
 				p {
 					br {
@@ -191,7 +191,7 @@
 			}
 		}
 
-		@include breakpoint(small) {
+		@include breakpoint(medium) {
 			> * {
 				margin-top: 2rem;
 
@@ -224,7 +224,7 @@
 			}
 		}
 
-		@include breakpoint(medium) {
+		@include breakpoint(large) {
 			padding: 1.5rem 0;
 
 			.content {
