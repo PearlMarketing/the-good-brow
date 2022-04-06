@@ -1,7 +1,7 @@
 ---
 collection: page
 slug: policies
-title: "Policies: Microbalding & Body Waxing"
+title: "Policies: Cosmetic Tattooing & Body Waxing"
 menuLink: Policies
 ---
 ### POLICIES FOR COSMETIC TATTOOING
