@@ -10,25 +10,25 @@ list:
 
       \
 
-      •no retinol or tretinoin for 4 weeks prior.
+      • no retinol or tretinoin for 4 weeks prior.
 
 
-      •no accutane for ONE YEAR prior, dr note required.
+      • no accutane for ONE YEAR prior, dr note required.
 
 
-      •facials, microdermabrasion, peels, microneedling, or laser treatments 4 weeks prior.
+      • facials, microdermabrasion, peels, microneedling, or laser treatments 4 weeks prior.
 
 
-      •no facial products containing AHA or BHA’s for one week prior.
+      • no facial products containing AHA or BHA’s for one week prior.
 
 
-      •waxing or tinting brows one week prior.
+      • waxing or tinting brows one week prior.
 
 
-      •absolutely no sunburns
+      • absolutely no sunburns
 
 
-      •no alcohol, caffeinated beverages, ibuprofen, aspirin or vitamin E 48 hours prior.
+      • no alcohol, caffeinated beverages, ibuprofen, aspirin or vitamin E 48 hours prior.
     title: How to Prepare for your Appointment
   - description: |-
       You are Pregnant or Nursing  
