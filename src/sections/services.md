@@ -35,16 +35,7 @@ list:
 
       6-8 week touch ups are recommended for best long term results.
     price: $525 (2+ hours)
-    title: Blade & Shade Brows
-  - description: |-
-      Hairstrokes throughout the entire brow. 
-
-      If you are looking for a natural enhancement, this is the option
-      best suited for you!
-
-      6-8 week touch ups are recommended for best long term results.
-    price: $500 (2 hours)
-    title: Microblading
+    title: Combo Brows
   - price: $125 (1 hour 15 min)
     title: Touch-up (6-8 weeks after initial appontment)
   - price: $250 (1 hour 30 min+)
