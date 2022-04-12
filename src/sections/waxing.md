@@ -1,8 +1,8 @@
 ---
 collection: page
 slug: waxing-spray-tans
-menuLink: Waxing & Spray Tans
-title: Waxing // Spray Tanning Services
+title: "Waxing "
+menuLink: "Waxing "
 ---
 Waxing is the most common form of hair removal for fast, flawless
 results.\
@@ -41,25 +41,3 @@ Full Face $40
 Eyebrow Tint $15\
 Lash Tint $30\
 Brow and Lash Tint $40
-
-## **Spray Tanning**
-
-The Good Tan  ( shower in 5-8 hours )    $40
-
-The Good Tan EXPRESS ( shower in 1 - 4 hours )    $50
-
-• lasts 7 - 12 days , with proper aftercare
-
-• flawless fade
-
-• odorless
-
-• customizable color (light, medium, dark)
-
-• paraben free, cruelty free, gluten free
-
-• 99% natural, skin nourishing ingredients 
-
- • lightweight, non-sticky formula 
-
-• designed for all skin tones
