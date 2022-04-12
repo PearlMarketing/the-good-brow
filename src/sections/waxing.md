@@ -1,6 +1,6 @@
 ---
 collection: page
-slug: waxing-spray-tans
+slug: waxing
 title: "Waxing "
 menuLink: "Waxing "
 ---
