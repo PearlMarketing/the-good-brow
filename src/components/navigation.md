@@ -6,7 +6,7 @@ link:
   - cosmetic-tattoo-services
   - cosmetic-tattooing
   - tiny-tattoos
-  - waxing-spray-tans
+  - waxing
   - faq
   - contact
 ---
