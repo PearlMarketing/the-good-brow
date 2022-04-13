@@ -83,7 +83,7 @@ const Header = ({ data, ...props }) => {
                 {
                   data.pages.edges.find(
                     ({ node }) => node.frontmatter.slug === link
-                  ).node.frontmatter.menuLink
+                  )?.node.frontmatter.menuLink
                 }
               </a>
             </li>

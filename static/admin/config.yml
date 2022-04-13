@@ -18,7 +18,7 @@ collections:
     create: true
     fields:
       - {name: "collection", widget: "hidden", default: "page"}
-      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Slug (If you change this, double check navigation links)", name: "slug", widget: "string", pattern: ['^\S+$', "Must not have spaces."]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Menu Link", name: "menuLink", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
