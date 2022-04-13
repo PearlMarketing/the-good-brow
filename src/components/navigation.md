@@ -5,7 +5,7 @@ link:
   - policies
   - cosmetic-tattoo-services
   - cosmetic-tattooing
-  - Tiny Tattoos
+  - tiny-tattoos
   - waxing-spray-tans
   - faq
   - contact
