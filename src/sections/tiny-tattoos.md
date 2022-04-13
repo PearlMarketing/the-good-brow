@@ -1,6 +1,6 @@
 ---
 collection: page
-slug: Tiny Tattoos
+slug: tiny-tattoos
 title: "Tiny Tattoos "
 menuLink: Tiny Tattoos & Request Form
 ---
