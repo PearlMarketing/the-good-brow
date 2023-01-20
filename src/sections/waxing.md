@@ -16,28 +16,28 @@ Clients must be at least 18 years of age with a Valid ID
 
 ### Women's Full Body Waxing
 
-Brazilian $55\
-Bikini $25\
+Brazilian $65\
+Bikini $30\
 French-Bikini $35\
 Full Legs and Brazilian $100\
 Full Legs and Bikini $90\
 1/2 legs $70\
 Full Arms $40\
 1/2 Arms $30\
-Underarms $17\
+Underarms $20\
 Thong and Buttocks $35
 
 ### Facial Waxing
 
 Eyebrow Shaping $20\
-Upper Lip $12\
-Eyebrow and Upper Lip $27\
+Upper Lip $15\
+Eyebrow and Upper Lip $35\
 Chin $12\
 Side of Face $12\
 Full Face $40
 
 ### Tinting
 
-Eyebrow Tint $15\
-Lash Tint $30\
-Brow and Lash Tint $40
+Eyebrow Tint $20\
+Lash Tint $40\
+Brow and Lash Tint $50
