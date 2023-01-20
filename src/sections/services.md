@@ -12,8 +12,15 @@ list:
 
 
       6-8 week touch ups are recommended for best long term results.
-    price: $525.00 (2 hour +)
+    price: $600.00 (2 hour +)
     title: Powder Brows
+  - description: |-
+      Blending hairstrokes and shading together for added depth and
+      definition to your brows.
+
+      6-8 week touch ups are recommended for best long term results.
+    price: $600.00 (2+ hours)
+    title: Combo Brows
   - description: |-
       Text and e-mail consults available upon request.
 
@@ -29,15 +36,8 @@ list:
       doctor.
     price: "15.00"
     title: Consultation
-  - description: |-
-      Blending hairstrokes and shading together for added depth and
-      definition to your brows.
-
-      6-8 week touch ups are recommended for best long term results.
-    price: $525 (2+ hours)
-    title: Combo Brows
-  - price: $125 (1 hour 15 min)
+  - price: $150.00 (1 hour 15 min)
     title: Touch-up (6-8 weeks after initial appontment)
-  - price: $250 (1 hour 30 min+)
+  - price: $300 (1 hour 30 min+)
     title: Annual Touch-Up (Existing clients only)
 ---
